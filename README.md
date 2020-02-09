@@ -1,5 +1,5 @@
-# ConfigManager
-플러그인의 설정 파일을 쉽게 관리해줍니다.
+# BoilerPlate
+PaperMC 플러그인 개발을 쉽게 해주는 보일러플레이트
 
 ### 주의!
 주의사항을 입력합니다\
@@ -11,14 +11,14 @@
 
 ## 예제
 ```java
-package kr.artserver.boilerplate.BoilerPlate;
+package kr.artserver.boilerplatetest;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class ConfigManagerTest extends JavaPlugin implements Listener {
+public final class BoilerPlateTest extends JavaPlugin implements Listener {
 
     public ConfigSession config;
 
