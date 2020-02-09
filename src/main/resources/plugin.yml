@@ -1,0 +1,3 @@
+name: BoilerPlate
+version: ${project.version}
+main: kr.artserver.boilerplate.BoilerPlate
